@@ -22,7 +22,7 @@ public class CekPalindromStack{
 
         System.out.println("\n---HASIL---");
         System.out.println("Teks Asli   :" + teksAsli);
-        System.out.println("Teks Terbalik   : + hasilBalik");
+        System.out.println("Teks Terbalik   :" + hasilBalik);
 
         if (teksAsli.equalsIgnoreCase(hasilBalik)) {
             System.out.println("Status   : PALINDROM");
