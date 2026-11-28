@@ -4,7 +4,7 @@ public class CekPalindromStack{
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
 
-        System.out.print("Masukan kata atau kalimat :");
+        System.out.print("Masukkan kata atau kalimat: ");
         String teksAsli=input.nextLine();
 
         Stack<Character> stack = new Stack<>();
